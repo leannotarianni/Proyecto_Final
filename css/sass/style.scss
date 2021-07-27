@@ -1,0 +1,28 @@
+@import 'components/colors';
+@import 'components/fonts';
+@import 'components/borders';
+@import 'components/fondo';
+@import "components/mixins";
+@import 'layout/header';
+@import 'layout/mainnav';
+@import 'layout/home';
+@import 'layout/footer';
+@import 'layout/productos';
+@import 'layout/storelocator';
+@import 'layout/aboutus';
+@import 'layout/help';
+@import 'layout/talles';
+@import 'layout/login';
+
+html {
+    color: $black;
+    font-family: 'Roboto', sans-serif;
+    
+    .Subtitutlos {
+        color: $black;
+        font-family: 'Caveat', cursive;
+        font-weight: bold;
+        margin: 2em 0em;
+    }
+}
+

@@ -1,0 +1,42 @@
+.Fotos {
+    margin: 0.2em 0em 5em 0em;
+    border: $border-carrousel;
+    border-style: outset;
+    .carousel-inner {
+        height: 100vh;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+.Galeria {
+    img {
+        margin: 8em 2em 2em 2em;
+        width: 90%;
+        height: 90%;
+        border-color: $black ;
+        border: $border-media;
+        border-style: outset;
+        border-radius: 0.5em;
+        &:hover {
+            transform: scale(1.1);
+            transition: 1s;
+        }
+    }
+    p {
+        margin-top: 3em;
+        font-family: 'Caveat', cursive;
+        font-weight: bold;
+        font-size: 2.3em;
+    }
+}
+
+.Video {
+    iframe {
+        margin: 20em 5em;
+        border: $border-media;
+        border-style: solid;
+        border-radius: $border-radius-media;
+        object-fit: fill;
+    }
+}
