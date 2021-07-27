@@ -93,7 +93,6 @@ header .Logan {
 }
 
 .Fotos .carousel-inner {
-  height: 100vh;
   object-fit: cover;
   object-position: center;
 }
@@ -128,17 +127,21 @@ header .Logan {
   object-fit: fill;
 }
 
-.LogoFooter img {
+footer {
+  background-color: #292929;
+}
+
+footer .LogoFooter img {
   height: 8em;
   width: 8em;
 }
 
-.Links {
+footer .Links {
   list-style: none;
   margin-top: 1em;
 }
 
-.Links a {
+footer .Links a {
   color: #ffffff;
   text-decoration: none;
   display: inline-block;
@@ -148,39 +151,39 @@ header .Logan {
   margin: 0.2em;
 }
 
-.Links a:hover {
+footer .Links a:hover {
   transition: 1s;
   transform: scale(1.3);
 }
 
-.SocialMedia h2 {
+footer .SocialMedia h2 {
   font-family: 'Caveat', cursive;
   color: #ffffff;
   font-size: 2em;
   font-weight: bold;
 }
 
-.SocialMedia ul {
+footer .SocialMedia ul {
   list-style: none;
 }
 
-.SocialMedia ul li {
+footer .SocialMedia ul li {
   margin: 1em;
 }
 
-.SocialMedia ul li a i {
+footer .SocialMedia ul li a i {
   font-size: 2em;
 }
 
-.SocialMedia .Redes--facebook {
+footer .SocialMedia .Redes--facebook {
   color: #202097;
 }
 
-.SocialMedia .Redes--instagram {
+footer .SocialMedia .Redes--instagram {
   color: rgba(175, 37, 101, 0.938);
 }
 
-.SocialMedia .Redes--twitter {
+footer .SocialMedia .Redes--twitter {
   color: #38b9c5;
 }
 
