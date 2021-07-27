@@ -93,7 +93,7 @@ header .Logan {
 }
 
 .Fotos .carousel-inner {
-  height: 100vh;
+  max-height: 100vh;
   object-fit: cover;
   object-position: center;
 }
