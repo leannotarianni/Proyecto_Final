@@ -87,7 +87,7 @@ header .Logan {
 }
 
 .Fotos {
-  margin: 0.2em 0em 5em 0em;
+  margin: 0.2em 0em 15em 0em;
   border: 0.5em #3f5efb;
   border-style: outset;
 }
@@ -98,30 +98,29 @@ header .Logan {
   object-position: center;
 }
 
-.Galeria img {
-  margin: 8em 2em 2em 2em;
-  width: 90%;
-  height: 90%;
+.Galeria div img {
+  max-height: 100%;
+  max-width: 100%;
   border-color: #000;
   border: 0.4em black;
   border-style: outset;
   border-radius: 0.5em;
 }
 
-.Galeria img:hover {
-  transform: scale(1.1);
+.Galeria div img:hover {
+  transform: scale(1.2);
   transition: 1s;
 }
 
-.Galeria p {
-  margin-top: 3em;
+.Galeria div p {
+  margin-top: 1.5em;
   font-family: 'Caveat', cursive;
   font-weight: bold;
   font-size: 2.3em;
 }
 
 .Video iframe {
-  margin: 20em 5em;
+  margin: 15em 5em 15em 5em;
   border: 0.4em black;
   border-style: solid;
   border-radius: 0.5em;
