@@ -19,10 +19,17 @@ html {
     font-family: 'Roboto', sans-serif;
     
     .Subtitutlos {
+        font-size: 2em;
         color: $black;
         font-family: 'Caveat', cursive;
         font-weight: bold;
-        margin: 2em 0em;
+        margin: 1em;
+        @media only screen and (min-width: 575px) {
+            font-size: 4em;
+        }
+        @media only screen and (min-width: 992px) {
+            font-size: 6em;
+        }
     }
 }
 
