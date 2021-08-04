@@ -16,21 +16,23 @@
         color: $black;
         &:hover {
             background-color: $white;
-            transition: 1s;
+            transition: 0.8s;
             transform: scale(1.1);
         }
     }
 
-    a:hover {
-        background-color: $white;
-        transition: 1s;
-        transform: scale(1.1);
-    }
     .LogoMini {
         margin: o;
         width: 60px;
         height: 60px;
         border: $black outset $border-logo-mainnav;
         border-radius: $border-radius-logo-mainnav;
+    }
+}
+
+.navbar-nav {
+    .nav-link{
+        padding-left: 1em;
+        padding-right: 1em;
     }
 }

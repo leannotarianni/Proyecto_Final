@@ -1,4 +1,4 @@
-.Fundador {
+.Fundadores {
     margin: 1em 1em 7em 1em;
     border: $border-carrousel;
     border-style: solid;
@@ -9,14 +9,17 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca", endColorstr="#94bbe9", GradientType=1);
 }
 
-.Fundador__Titulo {
+.Fundadores__Titulo {
+    text-align: center;
+    padding: 1em;
     color: $black;
     text-decoration: underline;
     font-family: 'Caveat', cursive;
     font-weight: bold;
 }
 
-.Fundador__Texto {
+.Fundadores__Texto {
+    padding: 0em 1em 2em 0em;
     text-align: justify;
     word-spacing: 0.1px;
     word-wrap: break-word;
@@ -34,6 +37,8 @@
 }
 
 .Origen__Titulo {
+    text-align: center;
+    padding: 1em;
     color: $black;
     text-decoration: underline;
     font-family: 'Caveat', cursive;
@@ -41,6 +46,7 @@
 }
 
 .Origen__texto {
+    padding: 0em 1em 2em 0em;
     text-align: justify;
     word-spacing: 0.1px;
     word-wrap: break-word;
