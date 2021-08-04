@@ -37,10 +37,24 @@
 
 .Video {
     iframe {
+        width:300px ;
+        height:200px;
         margin: 15em 5em 15em 5em;
         border: $border-media;
         border-style: solid;
         border-radius: $border-radius-media;
         object-fit: fill;
+        @media only screen and (min-width: 576px) {
+            width:400px ;
+            height:300px;
+        }
+        @media only screen and (min-width: 767px) {
+            width:500px ;
+            height:300px;
+        }
+        @media only screen and (min-width: 992px) {
+            width:700px ;
+            height:500px;
+        }
     }
 }

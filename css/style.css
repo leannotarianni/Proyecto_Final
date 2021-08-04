@@ -119,11 +119,34 @@ header .Logan {
 }
 
 .Video iframe {
+  width: 300px;
+  height: 200px;
   margin: 15em 5em 15em 5em;
   border: 0.4em black;
   border-style: solid;
   border-radius: 0.5em;
   object-fit: fill;
+}
+
+@media only screen and (min-width: 576px) {
+  .Video iframe {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .Video iframe {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .Video iframe {
+    width: 700px;
+    height: 500px;
+  }
 }
 
 footer {
@@ -184,12 +207,6 @@ footer .SocialMedia .Redes--instagram {
 
 footer .SocialMedia .Redes--twitter {
   color: #38b9c5;
-}
-
-.ProductosNav {
-  display: flex;
-  align-items: center;
-  align-content: center;
 }
 
 .GaleriaProductos article {
