@@ -154,13 +154,27 @@ footer {
 }
 
 footer .LogoFooter img {
-  height: 8em;
-  width: 8em;
+  height: 4em;
+  width: 4em;
+}
+
+@media only screen and (min-width: 575px) {
+  footer .LogoFooter img {
+    height: 6em;
+    width: 6em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  footer .LogoFooter img {
+    height: 7em;
+    width: 7em;
+  }
 }
 
 footer .Links {
   list-style: none;
-  margin-top: 1em;
+  margin-right: 1.5em;
 }
 
 footer .Links a {
@@ -168,9 +182,15 @@ footer .Links a {
   text-decoration: none;
   display: inline-block;
   font-family: 'Caveat', cursive;
-  font-size: 2em;
+  font-size: 1em;
   font-weight: bold;
-  margin: 0.2em;
+  margin-right: 1em;
+}
+
+@media only screen and (min-width: 575px) {
+  footer .Links a {
+    font-size: 2em;
+  }
 }
 
 footer .Links a:hover {
@@ -181,20 +201,33 @@ footer .Links a:hover {
 footer .SocialMedia h2 {
   font-family: 'Caveat', cursive;
   color: #ffffff;
-  font-size: 2em;
+  font-size: 1em;
   font-weight: bold;
+}
+
+@media only screen and (min-width: 575px) {
+  footer .SocialMedia h2 {
+    font-size: 2em;
+  }
 }
 
 footer .SocialMedia ul {
   list-style: none;
+  margin-right: 1.6em;
 }
 
-footer .SocialMedia ul li {
-  margin: 1em;
+footer .SocialMedia ul li a {
+  margin: 0em 0.5em;
 }
 
 footer .SocialMedia ul li a i {
-  font-size: 2em;
+  font-size: 1em;
+}
+
+@media only screen and (min-width: 575px) {
+  footer .SocialMedia ul li a i {
+    font-size: 1.8em;
+  }
 }
 
 footer .SocialMedia .Redes--facebook {
@@ -207,6 +240,22 @@ footer .SocialMedia .Redes--instagram {
 
 footer .SocialMedia .Redes--twitter {
   color: #38b9c5;
+}
+
+footer p {
+  font-size: 0.5em;
+}
+
+@media only screen and (min-width: 575px) {
+  footer p {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  footer p {
+    font-size: 1em;
+  }
 }
 
 .GaleriaProductos article {
@@ -393,11 +442,12 @@ footer .SocialMedia .Redes--twitter {
 
 .Login {
   margin: 1em;
-  /*     div#login{
-        border: $border-small;
-        border-style: solid;
-        border-radius: $border-radius-media;
-    } */
+}
+
+.Login div#login {
+  border: 0.2em #3f5efb;
+  border-style: solid;
+  border-radius: 0.5em;
 }
 
 .Login__fieldset {
