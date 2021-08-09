@@ -384,60 +384,94 @@ footer p {
   font-weight: bold;
 }
 
-.TalleHombre {
-  margin: 8em 0em;
-}
-
 .TalleHombre div h3 {
   color: #000;
   font-family: 'Caveat', cursive;
   font-weight: bold;
-  margin: 2em;
 }
 
 .TalleHombre div img {
-  padding: 2em;
+  height: 10em;
+  width: 10em;
   border: 0.4em black;
   border-radius: 0.5em;
   border-style: solid;
+}
+
+@media only screen and (min-width: 575px) {
+  .TalleHombre div img {
+    height: 18em;
+    width: 18em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .TalleHombre div img {
+    height: 20em;
+    width: 20em;
+  }
 }
 
 .TalleHombre div .table {
-  margin-top: 5em;
   border: 0.4em black;
   border-style: solid;
-  width: 50%;
   background-color: #eeaeca;
   background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca", endColorstr="#94bbe9", GradientType=1);
+  width: 12em;
+  height: 7em;
 }
 
-.TalleMujer {
-  margin: 8em;
+@media only screen and (min-width: 767px) {
+  .TalleHombre div .table {
+    width: 20em;
+    height: 15em;
+  }
 }
 
-.TalleMujer h3 {
+.TalleMujer div h3 {
   color: #000;
   font-family: 'Caveat', cursive;
   font-weight: bold;
-  margin: 2em;
 }
 
-.TalleMujer img {
-  padding: 2em;
+.TalleMujer div img {
+  height: 10em;
+  width: 10em;
   border: 0.4em black;
   border-radius: 0.5em;
   border-style: solid;
 }
 
+@media only screen and (min-width: 575px) {
+  .TalleMujer div img {
+    height: 18em;
+    width: 18em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .TalleMujer div img {
+    height: 20em;
+    width: 20em;
+  }
+}
+
 .TalleMujer div .table {
-  margin-top: 5em;
   border: 0.4em black;
   border-style: solid;
-  width: 50%;
   background-color: #eeaeca;
   background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca", endColorstr="#94bbe9", GradientType=1);
+  width: 12em;
+  height: 7em;
+}
+
+@media only screen and (min-width: 767px) {
+  .TalleMujer div .table {
+    width: 20em;
+    height: 15em;
+  }
 }
 
 .Login {
@@ -457,9 +491,9 @@ footer p {
 }
 
 .Contacto {
-  border-style: solid;
-  border: 0.4em black;
   border: 0.4em #3f5efb;
+  border-style: solid;
+  border-radius: 0.5em;
 }
 
 html {
