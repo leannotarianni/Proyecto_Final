@@ -17,7 +17,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/9924e2cbfa.js" crossorigin="anonymous"></script>
 
     <!-- Custom css -->
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
@@ -30,7 +29,9 @@
     <header class="container-fluid header">
         <div class="row">
             <div class="d-none col-lg-12 d-lg-flex justify-content-center">
-                <img class="Logo" src="imag/kongo2.jpg" alt="Logo">
+                <a href="index.html">
+                    <img class="Logo" src="imag/kongo2.jpg" alt="Logo" loading="lazy">
+                </a>
             </div>
         </div>
         <div class="row">
@@ -48,7 +49,7 @@
     <nav class="row navbar navbar-expand-lg navbar-light MainNav sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html"><img class="d-lg-none LogoMini" src="imag/kongo2.jpg"
-                    alt="Logo"></a>
+                    alt="Logo" loading="lazy"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -98,6 +99,9 @@
                     <label for="Mensaje" class="form-label">Mensaje</label>
                     <textarea class="form-control" id="Mensaje" rows="3"></textarea>
                 </div>
+                <div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
             </form>
         </div>
     </section>
@@ -106,7 +110,7 @@
         <nav class="row d-flex flex-column align-items-center justify-content-center flex-md-row">
             <div class="col-12 col-md-4 LogoFooter d-flex justify-content-center justify-content-md-start mt-2">
                 <a href="index.html" class="LogoFooter">
-                    <img src="imag/kongo.png" alt="home">
+                    <img src="imag/kongo.png" alt="home" loading="lazy">
                 </a>
             </div>
             <div class="col-12 col-md-4 d-flex  justify-content-center">
@@ -148,6 +152,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
     </script>
+    <script src="https://kit.fontawesome.com/9924e2cbfa.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
