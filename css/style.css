@@ -370,6 +370,13 @@ footer p {
   background: #eeaeca;
   background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca", endColorstr="#94bbe9", GradientType=1);
+  font-size: 0.7em;
+}
+
+@media only screen and (min-width: 575px) {
+  .Preguntas {
+    font-size: 1em;
+  }
 }
 
 .Preguntas__Titulo {
